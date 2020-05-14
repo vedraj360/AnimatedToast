@@ -26,28 +26,23 @@ dependencies {
 
 
 ## Screenshots 🔥❤️🔥 
+#### Light Theme
+
+![demo](https://github.com/vedraj360/AnimatedToast/blob/master/demo/light.gif)
 
 
-<p float="left">
-	<h3> Light </h3>
-  ![demo](https://github.com/vedraj360/AnimatedToast/blob/master/demo/light.gif)
-</p>
+#### Dark Theme
 
-<p float="left">
-<h3> Light </h3>
- ![demo](https://github.com/vedraj360/AnimatedToast/blob/master/demo/dark.gif)
-</p>
+![demo](https://github.com/vedraj360/AnimatedToast/blob/master/demo/dark.gif)
 
 
-
-## ANIMATION_TYPES
+## ANIMATION TYPES
 
 ```
 * ANIMATION_PULSE
 * ANIMATION_ROTATE
 * ANIMATION_BLINK
 * ANIMATION_FLIP
-
 ```
 
 
@@ -55,7 +50,7 @@ dependencies {
 To display an default Toast:
 
 ``` java
-AnimatedToast.defaultToast("yourContext","Default Toast",Gravity.CENTER,Toast.LENGTH_SHORT);
+AnimatedToast.defaultToast("yourContext","Default Toast",Gravity.CENTER,Toast.LENGTH_SHORT,AnimatedToast.ANIMATION_ROTATE);
 
 ```
 To display a success Toast:
@@ -83,7 +78,6 @@ To display an info Toast:
 ``` java
 AnimatedToast.Info(getApplicationContext(), "Info", Gravity.BOTTOM, Toast.LENGTH_SHORT, AnimatedToast.ANIMATION_FLIP);
 ```
-
 
 
 
@@ -119,13 +113,7 @@ AnimatedToast.Info("yourContext", "Info","Hello this is demo info!",Gravity.CENT
 
 
 
-
-## Dark Theme Screenshots
-
-<p float="center"> <img src="https://github.com/vedraj360/AnimatedToast/blob/master/Screenshots/sample_dark_toast.png" width="500" hspace="40"/>
-
 ## Contributing
-
 Please fork this repository and contribute back.
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
 but will be thoroughly reviewed .
