@@ -1,5 +1,6 @@
 # AnimatedToast 🤩❤️🔥 
 [![platform](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com)
+[![](https://jitpack.io/v/vedraj360/AnimatedToast.svg)](https://jitpack.io/#vedraj360/AnimatedToast)
 [![API](https://img.shields.io/badge/API-17%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=17)
 
 ## Prerequisites
