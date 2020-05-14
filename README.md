@@ -25,7 +25,7 @@ dependencies {
 ```
 
 
-## Screenshots 🔥❤️🔥 
+## Demo 🔥❤️🔥 
 #### Light Theme
 
 ![demo](https://github.com/vedraj360/AnimatedToast/blob/master/demo/light.gif)
